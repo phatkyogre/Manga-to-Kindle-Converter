@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""
-manga_to_kindle_gui.py
-GUI tool to convert image folders / CBZ (zip) / individual images
-into device-optimized CBZ volumes with full-height-first scaling with width-fallback (option B).
-"""
-
 import os
 import zipfile
 import tempfile
@@ -361,3 +354,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
